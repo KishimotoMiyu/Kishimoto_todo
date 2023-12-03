@@ -17,6 +17,8 @@ public class HashTest {
 		    	 e.printStackTrace();
 		     }
 		      assertNotEquals("test1234", p);
+		      
+		      
 	}
 	
 	@Test
@@ -33,5 +35,3 @@ public class HashTest {
 }
 
 
-
-//SELECT 商品名 FROM 注文履歴 WHERE 日付 = 2022-01 ORDER BY 商品名
