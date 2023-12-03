@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+
+      *{
+		  padding: 0;
+		  margin:0;
+	  }
+	  
+	  body{
+		  background-color:#D8D5C4;
+		  
+	  }
+	  
+	  main{
+		  background-color: #fff;
+		  width:90vw;
+		  border-radius: 10px;
+		  margin:40px auto;
+		  padding:20px;
+	  }
+	  
+	  .message{
+		  display: inline-block;
+		  padding-left:70px;
+	  }
+	  
+	  .nav_header{
+		  display: flex;
+		  justify-content: space-between;
+		  margin : auto 70px;
+	  }
+	  
+	 
+	  
+	  /* nav関係 */
+	  
+	  a{
+		  text-decoration: none;
+		  color:rgb(68, 74, 69);
+	  }
+	  
+	  a:hover{
+		  opacity: .7;
+	  }
+	  
+	   li{
+		  list-style: none;
+		  margin-left:20px;
+	    }
+	    
+	    ul{
+			display:flex;
+		}
+	  
+	  
+	  /* 期限ごとに文字色を変更する*/
+	  
+	  .red{
+		  color:#C05E51;
+	  }
+	  
+	  .yellow{
+		  color:#F5C265;
+	  }
+	  
+	  .blue{
+		  color:#5A6E5A;
+	  }
+	  
+	  
+	  /* table関係 */
+	  
+	  
+	  
+	  table{
+		  width:90%;
+		  margin:0 auto;
+	  }
+	  
+	  th , td{
+		  padding:8px;
+		  text-align: left;
+	  }
+	  
+	  thead > th , task{
+		  font-weight: bold;  
+	  }
+	  
+	  
+	  button{
+		 border: none;
+		 background: transparent;
+	  }

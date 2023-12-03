@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+      *{
+		  padding: 0;
+		  margin:0;
+	  }
+
+	  main{
+		  width:100vw;
+		  height:100vh;
+		  background-color:#D8D5C4;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  color:rgb(54, 56, 53)
+	  }
+	  
+	  h1{
+		  font-size: 24px;
+		  padding-bottom:10px;
+	  }
+	  
+	  p{
+		  font-size: 12px;
+	  }
+	  
+	  .login_form{
+		 text-align: center;
+		 background-color: #fff;
+		 width:40%;
+		 border-radius: 10px; 
+		 padding:40px;
+	  }
+	  
+	  form{
+		  width: 100%;
+		  display: flex;
+		  flex-direction:column;  
+	  }
+	    
+	   
+	   input{
+		   height:40px;
+		   margin:16px;
+		   border-radius: 5px; 
+		   border:1px solid  rgb(162, 163, 163);
+	   }
+	   
+	   
+	   .input_text{
+		   padding-left:20px;
+	   }
+	   
+	   .submit{
+		   font-weight: bold;
+		   color:rgb(54, 56, 53)
+	   }
+	   
+	   .pass_form > input {
+		   width: 75%;
+	   }
+	   
+	    .pass_form{
+			text-align: left;
+		}
+	   
+	   #btn_passview{
+		   background-color: transparent;
+		   border: none;
+	   }
+	   
+	   .submit:hover{
+		   opacity: .7;
+		}
+		
+		a{
+			text-decoration: none;
+			font-weight: bold;
+		   color:rgb(140, 46, 17)
+		}
+		
+		a:hover{
+			opacity: .7;
+		}

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+      *{
+		  padding: 0;
+		  margin:0;
+	  }
+
+	  main{
+		  width:100vw;
+		  height:100vh;
+		  background-color:#D8D5C4;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  color:rgb(54, 56, 53)
+	  }
+	  
+	  .changeform{
+		 background-color:#fff;
+		 width:40%;
+		 border-radius: 10px; 
+		 padding:40px;
+	  }
+	  
+	  h1{
+		  font-size: 24px;
+		  text-align: center;
+	  }
+	  
+	  p{
+		  font-size: 12px;
+		  padding:10px;
+		  text-align: center;
+	  }
+	  
+	  /* form関係 */
+	  
+	  form{
+		  width: 100%;
+	  }
+	   
+	   input{
+		   height:40px;
+		   border-radius: 5px; 
+		   border:1px solid  rgb(162, 163, 163);
+		   font-weight: bold;
+		   color:rgb(54, 56, 53);
+		   width:60%;
+		   display:block;
+		   padding-left:5px;
+		   margin:0 auto;
+	   }
+	  
+	   
+	   
+	   #submit:hover,a:hover{
+		   opacity: .7;
+		}
+		
+		a{
+			text-decoration: none;
+			font-size: 12px;
+			font-weight: bold;
+		    color:rgb(19, 18, 7);
+		    text-align: center;
+		    
+		}
+		
+		 textarea{
+		   padding-top:5px;
+		   padding-left:5px;
+		   width: 50%;
+		   height:80px;
+		   display: block;
+		   margin:0 auto;
+	   }
+		
+		#submit{
+		 border: none;
+		 background: transparent;
+	  }
+	  
+	  .pass_form {
+		 display:flex;
+		 justify-content: center;
+		 width:60%;
+		 margin : 0 auto;
+	  }
+	  
+	  .pass_form > input{
+		 margin:0;
+		 margin-right:10px;
+	  }
+	 
+	  
+	  .pass_form > button{
+		  background-color: transparent;
+		  border: none;
+	  }
+	  
+	  .hide-spin::-webkit-inner-spin-button, .hide-spin::-webkit-outer-spin-button{ /* 誕生日フォームの矢印削除*/
+		-webkit-appearance:none;
+		}
